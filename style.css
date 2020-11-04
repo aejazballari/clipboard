@@ -48,8 +48,7 @@ p {
 .devices {
   max-width: 320px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto;
 }
 
 .btn {
@@ -60,7 +59,6 @@ p {
   padding: 18px;
   margin: 25px auto;
   border-radius: 30px;
-  border: none;
   color: white;
   text-transform: capitalize;
   outline: none;
@@ -69,16 +67,23 @@ p {
 
 .ios {
   background-color: hsl(171, 66%, 44%);
+  border: 1px solid hsl(171, 66%, 44%);
+  box-shadow: 0px 3px 12px -3px hsl(171, 66%, 44%);
 }
 
 .mac {
   background-color: hsl(233, 100%, 69%);
+  border: 1px solid hsl(233, 100%, 69%);
+  box-shadow: 0px 3px 12px -3px hsl(233, 100%, 69%);
 }
 
 .icons {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto 10px auto;
+}
+
+.workflow {
+  padding-bottom: 40px;
 }
 
 .companylogos,
