@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+
+header {
+  max-width: 375px;
+}
+
+.bg {
+  background: url(./img/bg-header-mobile.png) no-repeat;
+  background-size: cover;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  padding: 5px 20px;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+.devices {
+  max-width: 370px;
+  padding: 30px 20px;
+}
+
+.btn {
+  min-width: 330px;
+  font-size: 1.5rem;
+  padding: 15px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.companylogos,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companies {
+  width: 100px;
+  margin: 20px auto;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background-color: rgb(245, 246, 248);
+}
+
+.footerLogo {
+  width: 60px;
+}
+
+.otherInfo {
+  font-size: 1.5rem;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+}
+
+.otherInfo li {
+  padding-top: 20px;
+}
+
+.social {
+  display: flex;
+}
