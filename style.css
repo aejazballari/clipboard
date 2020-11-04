@@ -14,13 +14,15 @@ section {
 }
 
 .bg {
-  background: url(./img/bg-header-mobile.png) no-repeat;
-  background-size: cover;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(./img/bg-header-mobile.png) top/cover no-repeat;
   height: 220px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  opacity: 0.6;
 }
 
 .clipboard-logo {
