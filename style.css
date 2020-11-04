@@ -40,10 +40,11 @@ p {
 }
 
 .btn {
+  display: block;
   min-width: 300px;
   font-size: 1.5rem;
   padding: 12px;
-  margin: 10px 20px;
+  margin: 10px auto;
   border-radius: 30px;
   border: none;
   color: white;
