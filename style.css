@@ -35,7 +35,8 @@ p {
 
 .devices {
   max-width: 340px;
-  padding: 30px 20px;
+  margin-left: auto;
+  margin-bottom: auto;
 }
 
 .btn {
