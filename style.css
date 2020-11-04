@@ -10,7 +10,6 @@ body {
 }
 
 header {
-  max-width: 375px;
 }
 
 .bg {
@@ -43,7 +42,7 @@ p {
 .btn {
   min-width: 300px;
   font-size: 1.5rem;
-  padding: 15px;
+  padding: 12px;
   margin: 10px 20px;
   border-radius: 30px;
   border: none;
