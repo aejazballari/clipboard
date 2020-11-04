@@ -9,7 +9,8 @@ body {
   font-size: 18px;
 }
 
-header {
+section {
+  margin: 100px auto;
 }
 
 .bg {
@@ -19,17 +20,29 @@ header {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  opacity: 0.6;
+}
+
+.clipboard-logo {
+  padding-bottom: 20px;
 }
 
 h1,
 h2,
 p {
   text-align: center;
-  padding: 5px 20px;
+}
+
+h1,
+h2 {
+  padding-top: 30px;
 }
 
 p {
   color: hsl(201, 11%, 66%);
+  padding: 20px;
+  line-height: 1.7;
+  font-size: 1.05rem;
 }
 
 .devices {
@@ -42,13 +55,16 @@ p {
 .btn {
   display: block;
   min-width: 300px;
-  font-size: 1.5rem;
-  padding: 12px;
-  margin: 10px auto;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 18px;
+  margin: 25px auto;
   border-radius: 30px;
   border: none;
   color: white;
   text-transform: capitalize;
+  outline: none;
+  cursor: pointer;
 }
 
 .ios {
@@ -73,7 +89,7 @@ footer {
 }
 
 .companies {
-  width: 100px;
+  width: 130px;
   margin: 20px auto;
 }
 
@@ -86,19 +102,30 @@ footer {
 }
 
 .footerLogo {
+  padding: 40px 2px;
   width: 60px;
 }
 
 .otherInfo {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
-  color: hsl(201, 11%, 66%);
 }
 
 .otherInfo li {
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .social {
+  margin: 30px auto;
   display: flex;
+}
+
+.social li {
+  display: block;
+  margin: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
 }
