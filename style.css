@@ -15,10 +15,10 @@ section {
 
 .bg {
   background: linear-gradient(
-      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.1),
       rgba(255, 255, 255, 0.8)
     ),
-    url(./img/bg-header-mobile.png) top/cover no-repeat;
+    url("./img/bg-header-mobile.png") top/cover no-repeat;
   height: 220px;
   display: flex;
   justify-content: center;
@@ -110,7 +110,7 @@ footer {
 
 .footerLogo {
   padding: 40px 2px;
-  width: 60px;
+  width: 50px;
 }
 
 .otherInfo {
@@ -135,4 +135,114 @@ footer {
 a {
   text-decoration: none;
   color: hsl(210, 10%, 33%);
+}
+
+@media screen and (min-width: 1300px) {
+  .bg {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.4)
+      ),
+      url(./img/bg-header-desktop.png) top/cover no-repeat;
+    height: 250px;
+  }
+
+  .text-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text {
+    max-width: 580px;
+  }
+
+  .desktop-buttons {
+    position: relative;
+    left: 34%;
+    max-width: 470px;
+  }
+
+  .btn {
+    display: inline-block;
+    min-width: 220px;
+    margin-right: 10px;
+  }
+
+  .track {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .left {
+    width: 50%;
+    background: url("./img/image-computer.png") right/cover no-repeat;
+    height: 500px;
+  }
+
+  .computer {
+    display: none;
+  }
+
+  .devices {
+    max-width: 700px;
+  }
+
+  .right {
+    width: 50%;
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  .alignLeft {
+    text-align: left;
+  }
+
+  .right p {
+    margin-left: -20px;
+    max-width: 400px;
+  }
+
+  .right h2 {
+    margin-bottom: -10px;
+  }
+
+  .companylogos,
+  .productivity {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .productivity-child {
+    max-width: 400px;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+
+  .clipboard-footer {
+    display: flex;
+    justify-content: center;
+    width: 330px;
+  }
+
+  .otherInfo {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 120px;
+    flex-wrap: wrap;
+  }
+
+  .otherInfo li {
+    width: 180px;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .social {
+    width: 300px;
+  }
 }
