@@ -35,6 +35,7 @@ p {
 
 .devices {
   max-width: 320px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
