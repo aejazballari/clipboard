@@ -47,6 +47,10 @@ p {
   font-size: 1.05rem;
 }
 
+span {
+  display: block;
+}
+
 .devices {
   max-width: 320px;
   display: block;
@@ -152,14 +156,17 @@ a {
     justify-content: center;
   }
 
+  span {
+    display: inline;
+  }
+
   .text {
     max-width: 580px;
   }
 
   .desktop-buttons {
-    position: relative;
-    left: 34%;
-    max-width: 470px;
+    display: flex;
+    justify-content: center;
   }
 
   .btn {
@@ -174,9 +181,10 @@ a {
   }
 
   .left {
-    width: 50%;
-    background: url("./img/image-computer.png") right/cover no-repeat;
+    width: 60%;
+    background: url("./img/image-computer.png") right/contain no-repeat;
     height: 500px;
+    margin-left: -240px;
   }
 
   .computer {
@@ -188,7 +196,7 @@ a {
   }
 
   .right {
-    width: 50%;
+    width: 40%;
     text-align: left;
     margin-left: 100px;
   }
@@ -210,6 +218,7 @@ a {
   .productivity {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
   }
